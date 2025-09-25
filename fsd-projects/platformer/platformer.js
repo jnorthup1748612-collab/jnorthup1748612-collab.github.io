@@ -33,28 +33,28 @@ $(function () {
     // TODO 2 - Create Platforms
 //createPlatform(x, y, width, height)
 createPlatform(300, 700, 100, 10, "blue")
-createPlatform(400, 650, 100, 10, "green")
-createPlatform(500, 600, 100, 10, "red")
-createPlatform(600, 550, 100, 10, "yellow")
-createPlatform(700, 500, 100, 10, "purple")
+createPlatform(400, 600, 100, 10, "green")
+createPlatform(500, 500, 100, 10, "red")
+createPlatform(600, 400, 100, 10, "yellow")
+createPlatform(700, 300, 100, 10, "purple")
 
     // TODO 3 - Create Collectables
 //createCollectable("type", xPos, yPos, gravityNum, bounceNum Between 0 and .99)
 createCollectable("database", 700, 100, 1, 1)
-createCollectable("max", 500, 100, 0, 1)
+createCollectable("max", 400, 100, 1, 1)
 createCollectable("steve", 600, 100, 1, 1)
 
     
     // TODO 4 - Create//createCannon(wallLocation%2C%20position%2C%20timeBetweenShots%2C%20width%2C%20height)
 //createCannon(wallLocation, position, timeBetweenShots, width, height)
     //Cannon on the top side of the canvas. at position 700, about mid way through.
-createCannon("top", 700, 1000);
+createCannon("top", 700, 2000);
 
 //Cannon on the right side of the canvas. at position 200, about 1/4 through.
-createCannon("right", 200, 1000);
+createCannon("right", 200, 3000);
 
 //Cannon on the left side of the canvas. at position 400, about 1/2 through.
-createCannon("left", 400, 1000);
+createCannon("left", 400, 4000);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
